@@ -1,4 +1,4 @@
-FROM quay.io/evryfs/base-ubuntu:master
+FROM quay.io/evryfs/base-ubuntu:focal-20200703
 LABEL maintainer fsdevops@evry.com
 # hadolint ignore=DL3008
 RUN apt-get update && \
